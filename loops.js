@@ -14,13 +14,9 @@ function forLoop(array) {
     }
     return"done"
   }
-  function maybeTrue() {
-    return Math.random() >= 0.5
-  }
+  function doWhileLoop(integer){
+  do{
+    console.log("I run once regardless.")
+  } while (incrementVariable() <= integer)
+} 
 
-  function doWhileLoop(array) {
-    do {
-      array = array.slice(1)
-    } while (array.length > 0 && maybeTrue())
-    return array
-  }
