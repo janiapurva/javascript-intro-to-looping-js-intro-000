@@ -18,5 +18,4 @@ function forLoop(array) {
   do{
     console.log("I run once regardless.")
   } while (incrementVariable() <= integer)
-} 
-
+}
